@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 		let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
 		view.addSubview(collectionView)
 		collectionView.translatesAutoresizingMaskIntoConstraints = false
-		collectionView.isPagingEnabled = true // Disable for seemless scrolling
+		collectionView.isPagingEnabled = false
 		collectionView.backgroundColor = UIColor.gray.withAlphaComponent(0.0)
 		collectionView.layer.cornerRadius = 30
 		collectionView.layer.cornerCurve = .continuous
